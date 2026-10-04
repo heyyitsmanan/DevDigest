@@ -29,9 +29,9 @@ def summarize_article(article_text):
     )
     return response.choices[0].message.content
 
-st.set_page_config(page_title="AI Webpage Summarizer", page_icon="🔍")
+st.set_page_config(page_title="DevDigest", page_icon="🔍")
 
-st.title("AI Webpage Summarizer")
+st.title("DEVDIGEST - AI Webpage Summarizer")
 url = st.text_input("Paste an article's URL here: ", placeholder="https://example.com/article")
 
 if st.button("Summarize"):
